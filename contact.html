@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+		<link rel="stylesheet" href="style/contactStyle.css" />
+		<script
+			src="https://kit.fontawesome.com/87caa0afe0.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="http://fonts.cdnfonts.com/css/wix-madefor-text"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<div class="name">
+					<a href="index.html">
+						<h1>Stina Haziri</h1>
+					</a>
+				</div>
+				<div class="profession">
+					<a href="index.html">
+						<h2><span>/</span> Programer</h2>
+					</a>
+				</div>
+			</div>
+			<div class="nav">
+				<input id="button" type="checkbox" value="" />
+				<ul>
+					<a href="index.html"> <li>about me</li></a>
+					<a href="resume.html"><li>Resume</li></a>
+					<a href="project.html"><li>project</li></a>
+					<a href="contact.html"><li class="aboutmeNav">contact</li></a>
+				</ul>
+			</div>
+			<label for="button" class="iconBurger">
+				<div class="lines"></div>
+				<div class="lines"></div>
+				<div class="lines"></div>
+			</label>
+		</header>
+
+		<section class="signUp">
+			<div class="title">
+				<h1>Let's talk</h1>
+			</div>
+			<form>
+				<div class="firstInput">
+					<div class="inputGroup-1">
+						<label for="firstName">First Name</label>
+						<input id="firstName" type="text" maxlength="8" />
+					</div>
+					<div class="inputGroup-2">
+						<label for="lastName">Last Name</label>
+						<input type="text" id="lastName" maxlength="8" />
+					</div>
+				</div>
+				<div class="seconInput">
+					<label class="emailAfter" for="email">Email</label>
+					<input type="text" id="email" />
+
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" />
+
+					<label for="message">Message</label>
+					<textarea id="message" cols="55" rows="10"></textarea>
+				</div>
+				<input type="submit" value="Send" id="submit" />
+			</form>
+		</section>
+
+		<!-- footer -->
+		<footer>
+			<div class="copyright">
+				<h4>© 2023 by Maya Nelson.</h4>
+				<h4>Proudly created with <a href=""> Wix.com</a></h4>
+			</div>
+			<div class="info">
+				<div class="call">
+					<h3>Call</h3>
+					<h5>123-456-7890</h5>
+				</div>
+				<div class="write">
+					<h3>Write</h3>
+					<h5>info@mysite.com</h5>
+				</div>
+
+				<div class="follow">
+					<h3>Follow</h3>
+					<div class="solcialmediaInfo">
+						<a href="">
+							<i class="fa-brands fa-facebook-f"></i>
+						</a>
+						<a href="">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+						<a href="">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</a>
+						<a href="">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
